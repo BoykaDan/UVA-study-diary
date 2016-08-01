@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  UVA-study-diary
+//  UVa-679-dropping ball
 //
-//  Created by Lang Dan on 16/7/28.
+//  Created by Lang Dan on 16/8/1.
 //  Copyright © 2016年 Lang Dan. All rights reserved.
 //
 

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FC19A751D4A008B009E8B06"
+               BlueprintIdentifier = "4F2A806A1D4F73DB000A6A98"
                BuildableName = "UVA-study-diary"
                BlueprintName = "UVA-study-diary"
                ReferencedContainer = "container:UVA-study-diary.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FC19A751D4A008B009E8B06"
+            BlueprintIdentifier = "4F2A806A1D4F73DB000A6A98"
             BuildableName = "UVA-study-diary"
             BlueprintName = "UVA-study-diary"
             ReferencedContainer = "container:UVA-study-diary.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FC19A751D4A008B009E8B06"
+            BlueprintIdentifier = "4F2A806A1D4F73DB000A6A98"
             BuildableName = "UVA-study-diary"
             BlueprintName = "UVA-study-diary"
             ReferencedContainer = "container:UVA-study-diary.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FC19A751D4A008B009E8B06"
+            BlueprintIdentifier = "4F2A806A1D4F73DB000A6A98"
             BuildableName = "UVA-study-diary"
             BlueprintName = "UVA-study-diary"
             ReferencedContainer = "container:UVA-study-diary.xcodeproj">
