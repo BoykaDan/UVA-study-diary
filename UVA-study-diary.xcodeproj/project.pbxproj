@@ -23,8 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4FC19A761D4A008B009E8B06 /* UVA-study-diary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UVA-study-diary"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC19A761D4A008B009E8B06 /* UVA-study-diary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "UVA-study-diary"; path = "/Users/langdan/Desktop/UVA-study-diary/build/Debug/UVA-study-diary"; sourceTree = "<absolute>"; };
 		4FC19A791D4A008B009E8B06 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4FC19A871D4A095E009E8B06 /* UVA-study-diary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UVA-study-diary"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,22 +43,14 @@
 			isa = PBXGroup;
 			children = (
 				4FC19A781D4A008B009E8B06 /* UVA-study-diary */,
-				4FC19A771D4A008B009E8B06 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		4FC19A771D4A008B009E8B06 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4FC19A761D4A008B009E8B06 /* UVA-study-diary */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4FC19A781D4A008B009E8B06 /* UVA-study-diary */ = {
 			isa = PBXGroup;
 			children = (
 				4FC19A791D4A008B009E8B06 /* main.cpp */,
+				4FC19A871D4A095E009E8B06 /* UVA-study-diary */,
 			);
 			path = "UVA-study-diary";
 			sourceTree = "<group>";
@@ -104,7 +97,7 @@
 				en,
 			);
 			mainGroup = 4FC19A6D1D4A008A009E8B06;
-			productRefGroup = 4FC19A771D4A008B009E8B06 /* Products */;
+			productRefGroup = 4FC19A6D1D4A008A009E8B06;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -239,6 +232,7 @@
 				4FC19A7F1D4A008B009E8B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
