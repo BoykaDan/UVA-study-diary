@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+<<<<<<< Updated upstream
    <Group
       location = "container:"
       name = "New Group">
@@ -8,4 +9,9 @@
          location = "self:UVA-study-diary.xcodeproj">
       </FileRef>
    </Group>
+=======
+   <FileRef
+      location = "self:">
+   </FileRef>
+>>>>>>> Stashed changes
 </Workspace>
