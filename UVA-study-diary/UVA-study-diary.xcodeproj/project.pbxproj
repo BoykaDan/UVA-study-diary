@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F25CD6B1D5191330084C915 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F25CD6A1D5191330084C915 /* main.cpp */; };
 		4F2A806F1D4F73DB000A6A98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A806E1D4F73DB000A6A98 /* main.cpp */; };
 		4F2A807E1D4F771A000A6A98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A807D1D4F771A000A6A98 /* main.cpp */; };
+		4FE03F3B1D50DBA900714EC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FE03F3A1D50DBA900714EC3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4F25CD661D5191330084C915 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		4F2A80691D4F73DB000A6A98 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -30,16 +41,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		4FE03F361D50DBA900714EC3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F25CD681D5191330084C915 /* laboratory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = laboratory; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F25CD6A1D5191330084C915 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4F2A806B1D4F73DB000A6A98 /* UVA-study-diary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UVA-study-diary"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2A806E1D4F73DB000A6A98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4F2A807B1D4F771A000A6A98 /* UVa-679-dropping ball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UVa-679-dropping ball"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2A807D1D4F771A000A6A98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4FE03F381D50DBA900714EC3 /* Uva-122-trees on the level */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Uva-122-trees on the level"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE03F3A1D50DBA900714EC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4F25CD651D5191330084C915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F2A80681D4F73DB000A6A98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,14 +85,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FE03F351D50DBA900714EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F25CD691D5191330084C915 /* laboratory */ = {
+			isa = PBXGroup;
+			children = (
+				4F25CD6A1D5191330084C915 /* main.cpp */,
+			);
+			path = laboratory;
+			sourceTree = "<group>";
+		};
 		4F2A80621D4F73DB000A6A98 = {
 			isa = PBXGroup;
 			children = (
 				4F2A806D1D4F73DB000A6A98 /* UVA-study-diary */,
 				4F2A807C1D4F771A000A6A98 /* UVa-679-dropping ball */,
+				4FE03F391D50DBA900714EC3 /* Uva-122-trees on the level */,
+				4F25CD691D5191330084C915 /* laboratory */,
 				4F2A806C1D4F73DB000A6A98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +119,8 @@
 			children = (
 				4F2A806B1D4F73DB000A6A98 /* UVA-study-diary */,
 				4F2A807B1D4F771A000A6A98 /* UVa-679-dropping ball */,
+				4FE03F381D50DBA900714EC3 /* Uva-122-trees on the level */,
+				4F25CD681D5191330084C915 /* laboratory */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,9 +141,34 @@
 			path = "UVa-679-dropping ball";
 			sourceTree = "<group>";
 		};
+		4FE03F391D50DBA900714EC3 /* Uva-122-trees on the level */ = {
+			isa = PBXGroup;
+			children = (
+				4FE03F3A1D50DBA900714EC3 /* main.cpp */,
+			);
+			path = "Uva-122-trees on the level";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4F25CD671D5191330084C915 /* laboratory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F25CD6E1D5191330084C915 /* Build configuration list for PBXNativeTarget "laboratory" */;
+			buildPhases = (
+				4F25CD641D5191330084C915 /* Sources */,
+				4F25CD651D5191330084C915 /* Frameworks */,
+				4F25CD661D5191330084C915 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laboratory;
+			productName = laboratory;
+			productReference = 4F25CD681D5191330084C915 /* laboratory */;
+			productType = "com.apple.product-type.tool";
+		};
 		4F2A806A1D4F73DB000A6A98 /* UVA-study-diary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F2A80721D4F73DB000A6A98 /* Build configuration list for PBXNativeTarget "UVA-study-diary" */;
@@ -128,6 +203,23 @@
 			productReference = 4F2A807B1D4F771A000A6A98 /* UVa-679-dropping ball */;
 			productType = "com.apple.product-type.tool";
 		};
+		4FE03F371D50DBA900714EC3 /* Uva-122-trees on the level */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE03F3E1D50DBA900714EC3 /* Build configuration list for PBXNativeTarget "Uva-122-trees on the level" */;
+			buildPhases = (
+				4FE03F341D50DBA900714EC3 /* Sources */,
+				4FE03F351D50DBA900714EC3 /* Frameworks */,
+				4FE03F361D50DBA900714EC3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uva-122-trees on the level";
+			productName = "Uva-122-trees on the level";
+			productReference = 4FE03F381D50DBA900714EC3 /* Uva-122-trees on the level */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -137,10 +229,16 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Lang Dan";
 				TargetAttributes = {
+					4F25CD671D5191330084C915 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					4F2A806A1D4F73DB000A6A98 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					4F2A807A1D4F771A000A6A98 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4FE03F371D50DBA900714EC3 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -159,11 +257,21 @@
 			targets = (
 				4F2A806A1D4F73DB000A6A98 /* UVA-study-diary */,
 				4F2A807A1D4F771A000A6A98 /* UVa-679-dropping ball */,
+				4FE03F371D50DBA900714EC3 /* Uva-122-trees on the level */,
+				4F25CD671D5191330084C915 /* laboratory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4F25CD641D5191330084C915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F25CD6B1D5191330084C915 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F2A80671D4F73DB000A6A98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,9 +288,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FE03F341D50DBA900714EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE03F3B1D50DBA900714EC3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4F25CD6C1D5191330084C915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F25CD6D1D5191330084C915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4F2A80701D4F73DB000A6A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -292,9 +422,31 @@
 			};
 			name = Release;
 		};
+		4FE03F3C1D50DBA900714EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FE03F3D1D50DBA900714EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4F25CD6E1D5191330084C915 /* Build configuration list for PBXNativeTarget "laboratory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F25CD6C1D5191330084C915 /* Debug */,
+				4F25CD6D1D5191330084C915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4F2A80661D4F73DB000A6A98 /* Build configuration list for PBXProject "UVA-study-diary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -311,6 +463,7 @@
 				4F2A80741D4F73DB000A6A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F2A807F1D4F771A000A6A98 /* Build configuration list for PBXNativeTarget "UVa-679-dropping ball" */ = {
 			isa = XCConfigurationList;
@@ -319,6 +472,16 @@
 				4F2A80811D4F771A000A6A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE03F3E1D50DBA900714EC3 /* Build configuration list for PBXNativeTarget "Uva-122-trees on the level" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE03F3C1D50DBA900714EC3 /* Debug */,
+				4FE03F3D1D50DBA900714EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

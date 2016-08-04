@@ -14,15 +14,35 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Uva-122-trees on the level.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>laboratory.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4F25CD671D5191330084C915</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4F2A806A1D4F73DB000A6A98</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>4F2A807A1D4F771A000A6A98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FE03F371D50DBA900714EC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
