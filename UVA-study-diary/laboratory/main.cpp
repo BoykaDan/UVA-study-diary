@@ -9,7 +9,26 @@
 #include <iostream>
 using namespace std;
 int main(int argc, const char * argv[]) {
+    int i = 0;
     char s[100];
+    s[i] = 'L';
+    cout <<"s[i]///////////////test."<< s[i] <<endl;
+    if (s[i] == 'L') {
+        cout <<"s[i]///////////////test.---1"<< s[i] <<endl;
+
+    }
+    if (s[i] == 'R') {
+        cout <<"s[i]///////////////test.---2"<< s[i] <<endl;
+
+          }
+    else{
+        cout<<"please input the right value."<<endl;
+        exit(0);
+    }
+    
+    
+    
+    
     bool f =false;
     for (; ; ) {
         cout<<"77777777"<<endl;

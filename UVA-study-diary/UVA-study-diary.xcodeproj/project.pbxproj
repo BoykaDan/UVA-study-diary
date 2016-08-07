@@ -10,6 +10,7 @@
 		4F25CD6B1D5191330084C915 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F25CD6A1D5191330084C915 /* main.cpp */; };
 		4F2A806F1D4F73DB000A6A98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A806E1D4F73DB000A6A98 /* main.cpp */; };
 		4F2A807E1D4F771A000A6A98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A807D1D4F771A000A6A98 /* main.cpp */; };
+		4F2B15681D55B3C9004EE78B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2B15671D55B3C9004EE78B /* main.cpp */; };
 		4FE03F3B1D50DBA900714EC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FE03F3A1D50DBA900714EC3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		4F2B15631D55B3C9004EE78B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		4FE03F361D50DBA900714EC3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +69,8 @@
 		4F2A806E1D4F73DB000A6A98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4F2A807B1D4F771A000A6A98 /* UVa-679-dropping ball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UVa-679-dropping ball"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2A807D1D4F771A000A6A98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4F2B15651D55B3C9004EE78B /* uva-839 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "uva-839"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2B15671D55B3C9004EE78B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4FE03F381D50DBA900714EC3 /* Uva-122-trees on the level */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Uva-122-trees on the level"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE03F3A1D50DBA900714EC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +91,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4F2A80781D4F771A000A6A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2B15621D55B3C9004EE78B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -110,6 +129,7 @@
 				4F2A807C1D4F771A000A6A98 /* UVa-679-dropping ball */,
 				4FE03F391D50DBA900714EC3 /* Uva-122-trees on the level */,
 				4F25CD691D5191330084C915 /* laboratory */,
+				4F2B15661D55B3C9004EE78B /* uva-839 */,
 				4F2A806C1D4F73DB000A6A98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,6 +141,7 @@
 				4F2A807B1D4F771A000A6A98 /* UVa-679-dropping ball */,
 				4FE03F381D50DBA900714EC3 /* Uva-122-trees on the level */,
 				4F25CD681D5191330084C915 /* laboratory */,
+				4F2B15651D55B3C9004EE78B /* uva-839 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +160,14 @@
 				4F2A807D1D4F771A000A6A98 /* main.cpp */,
 			);
 			path = "UVa-679-dropping ball";
+			sourceTree = "<group>";
+		};
+		4F2B15661D55B3C9004EE78B /* uva-839 */ = {
+			isa = PBXGroup;
+			children = (
+				4F2B15671D55B3C9004EE78B /* main.cpp */,
+			);
+			path = "uva-839";
 			sourceTree = "<group>";
 		};
 		4FE03F391D50DBA900714EC3 /* Uva-122-trees on the level */ = {
@@ -203,6 +232,23 @@
 			productReference = 4F2A807B1D4F771A000A6A98 /* UVa-679-dropping ball */;
 			productType = "com.apple.product-type.tool";
 		};
+		4F2B15641D55B3C9004EE78B /* uva-839 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2B156B1D55B3C9004EE78B /* Build configuration list for PBXNativeTarget "uva-839" */;
+			buildPhases = (
+				4F2B15611D55B3C9004EE78B /* Sources */,
+				4F2B15621D55B3C9004EE78B /* Frameworks */,
+				4F2B15631D55B3C9004EE78B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uva-839";
+			productName = "uva-839";
+			productReference = 4F2B15651D55B3C9004EE78B /* uva-839 */;
+			productType = "com.apple.product-type.tool";
+		};
 		4FE03F371D50DBA900714EC3 /* Uva-122-trees on the level */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FE03F3E1D50DBA900714EC3 /* Build configuration list for PBXNativeTarget "Uva-122-trees on the level" */;
@@ -238,6 +284,9 @@
 					4F2A807A1D4F771A000A6A98 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					4F2B15641D55B3C9004EE78B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					4FE03F371D50DBA900714EC3 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -259,6 +308,7 @@
 				4F2A807A1D4F771A000A6A98 /* UVa-679-dropping ball */,
 				4FE03F371D50DBA900714EC3 /* Uva-122-trees on the level */,
 				4F25CD671D5191330084C915 /* laboratory */,
+				4F2B15641D55B3C9004EE78B /* uva-839 */,
 			);
 		};
 /* End PBXProject section */
@@ -285,6 +335,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2A807E1D4F771A000A6A98 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2B15611D55B3C9004EE78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2B15681D55B3C9004EE78B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +480,20 @@
 			};
 			name = Release;
 		};
+		4F2B15691D55B3C9004EE78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F2B156A1D55B3C9004EE78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4FE03F3C1D50DBA900714EC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -446,6 +518,7 @@
 				4F25CD6D1D5191330084C915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F2A80661D4F73DB000A6A98 /* Build configuration list for PBXProject "UVA-study-diary" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +543,15 @@
 			buildConfigurations = (
 				4F2A80801D4F771A000A6A98 /* Debug */,
 				4F2A80811D4F771A000A6A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2B156B1D55B3C9004EE78B /* Build configuration list for PBXNativeTarget "uva-839" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2B15691D55B3C9004EE78B /* Debug */,
+				4F2B156A1D55B3C9004EE78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

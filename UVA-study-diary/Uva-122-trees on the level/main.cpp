@@ -35,18 +35,26 @@ void addnode(int v,char *s){
     
     for (int i = 0; i < len ; i++) {
         if (s[i] == 'L') {
+            cout <<"s[i]///////////////test."<< s[i] << "    L"<< i <<endl;
+
             if(u->left == NULL){
                 u->left = new_node();
                 u = u -> left;
             }
         }
-        if (s[i] == 'R') {
+        else if (s[i] == 'R') {
+            cout <<"s[i]///////////////test."<< s[i] << "    R"<< i <<endl;
+
             if (u->right == NULL) {
                 u->right = new_node();
                 u = u->right;
             }
+        }else if(s[i] == ')'){
+            continue;
         }
         else{
+            cout <<"s[i]///////////////test."<< s[i] << "    E"<< i <<endl;
+
             cout<<"please input the right value."<<endl;
             exit(0);
         }
@@ -55,7 +63,7 @@ void addnode(int v,char *s){
     }
     if (u -> h_v == true) {
         if (v == NULL) {
-            cout<<"not complete."<<endl;
+            cout<<"not complete.---1"<<endl;
             exit(0);
         }else{
             u->v = v;
@@ -63,7 +71,7 @@ void addnode(int v,char *s){
             f = true;
 }
     }else{
-        cout<<"not complete."<<endl;
+        cout<<"not complete.---2"<<endl;
         exit(0);
 
             }
@@ -124,7 +132,7 @@ int main (){
     vector<int> ans;
     if (readinput()) {
         if(!bfs(ans)) f =1;
-        if(f ) cout<<"not competet-1."<<endl;
+        if(f ) cout<<"not competet---3."<<endl;
         else{
             for(int i = 0; i < ans.size(); i++) {
                 if(i != 0) printf(" ");
