@@ -132,15 +132,15 @@ int main (){
     vector<int> ans;
     if (readinput()) {
         if(!bfs(ans)) f =1;
-        if(f ) cout<<"not competet---3."<<endl;
-        else{
+//        if(f ) cout<<"not competet---3."<<endl;
+//        else{
             for(int i = 0; i < ans.size(); i++) {
                 if(i != 0) printf(" ");
                 printf("%d", ans[i]);
             }
             printf("\n");
-        }
-        
+//        }
+//        
     }
     return 0;
 }

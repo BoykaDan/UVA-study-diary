@@ -19,7 +19,6 @@ bool solve(int& W) {
     cin >> W1 >> D1 >> W2 >> D2;
     if(!W1) b1 = solve(W1);
     if(!W2) b2 = solve(W2);
-    W = W1 + W2;
     return b1 && b2 && (W1 * D1 == W2 * D2);
 }
 
@@ -32,3 +31,11 @@ int main() {
     }
     return 0;
 }
+
+
+
+
+
+
+
+

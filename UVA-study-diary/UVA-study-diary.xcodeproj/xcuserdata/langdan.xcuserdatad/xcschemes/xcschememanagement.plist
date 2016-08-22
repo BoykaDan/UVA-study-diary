@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>UVa-839-DIY.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Uva-122-trees on the level.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>uva548.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -48,6 +58,16 @@
 			<true/>
 		</dict>
 		<key>4F2B15641D55B3C9004EE78B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FA4AA891D59943A0022CEEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FC40F731D5F2C8900752BB4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
