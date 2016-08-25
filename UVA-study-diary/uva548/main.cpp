@@ -10,11 +10,16 @@
 #include "cstdio"
 #include "cstdlib"
 using namespace std;
-char s[1000];
+int post_order[1000], in_order[1000];
+
+struct node {
+    int v;
+};
+
+int bfs(){
+    return 0;
+}
 
 int main(int argc, const char * argv[]) {
-    while (gets(s)){
-        
-    }
-
+ 
 }
