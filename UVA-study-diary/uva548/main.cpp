@@ -11,6 +11,7 @@
 #include "cstdio"
 #include "cstdlib"
 using namespace std;
+<<<<<<< HEAD
 int post_order[1000], in_order[1000],lch[1000],rch[1000];
 int best, best_sum; // 目前为止的最优解和对应的权和
 ;
@@ -64,5 +65,18 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
     
+=======
+int post_order[1000], in_order[1000];
+
+struct node {
+    int v;
+};
+
+int bfs(){
+    return 0;
+}
+
+int main(int argc, const char * argv[]) {
+>>>>>>> origin/master
  
 }
